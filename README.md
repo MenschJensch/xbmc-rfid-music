@@ -47,9 +47,9 @@ That particular RFID reader doesn't require any drivers for use with Windows or 
     
 The first 4 commands are required because there is an issue with installing python-dev tools on XBian.
 
-2) Create winamp m3u compatible playlists and store them in your XBMC's userdata/Playlists/music directory, on XBian this is `/home/xbian/.xbmc/userdata/Playlists/music/` (I have included a visualbasic script which I used to create my playlists)
+2) Create winamp m3u compatible playlists and store them in your XBMC's userdata/Playlists/music directory, on XBian this is `/home/pi/.kodi/userdata/Playlists/music/` (I have included a visualbasic script which I used to create my playlists)
 
-3) Copy the files from this repo into a directory under this new user's homedir, ie: `/home/xbian/xbmc-rfid-music`
+3) Copy the files from this repo into a directory under this new user's homedir, ie: `/home/pi/xbmc-rfid-music`
 
 4) Connect your RFID reader to the system running XBMC. Use lsusb to get the required details of your RFID reader.
 
